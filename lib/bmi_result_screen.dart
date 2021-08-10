@@ -1,6 +1,4 @@
 
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 class BmiResultScreen extends StatelessWidget {
@@ -15,6 +13,7 @@ class BmiResultScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+
 /*
         //     كده كده بيرجع لو انا عاوز اعمله رجوع انا واغير شكل الباطون اعمل دي
         leading: IconButton(
